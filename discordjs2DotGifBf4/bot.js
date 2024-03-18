@@ -71,8 +71,9 @@ for (const file of eventFiles) {
 ///});
 //console.log(process.env.TOKEN)
 // Log in to Discord with your client's token
-client.login(process.env.TOKEN);
+client.login("put your tokon in here also");
 
+/// on't forget to add token, client id, and giildid to config.json
 
 // client.on(Events.InteractionCreate, async interaction => {
 // 	if (!interaction.isChatInputCommand()) return;
